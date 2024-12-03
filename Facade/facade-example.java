@@ -1,6 +1,6 @@
 package Facade;
 
-// Classe do subsistema Cozinha
+// Classe do subsistema Cozinha 
 class Cozinha {
     public void prepararComida() {
         System.out.println("Cozinha: Preparando a comida...");
@@ -8,7 +8,7 @@ class Cozinha {
 }
 
 // Classe do subsistema Entrega
-class Entrega {
+class Entrega { 
     public void realizarEntrega() {
         System.out.println("Entrega: Iniciando a entrega...");
     }
@@ -27,13 +27,14 @@ class SistemaDePedidoFacade {
     private Entrega entrega;
     private Pagamento pagamento;
 
+    // Fornece uma interface simplificada para o cliente, ocultando a complexidade de interagir com os subsistemas individualmente.
     public SistemaDePedidoFacade() {
         cozinha = new Cozinha();
         entrega = new Entrega();
         pagamento = new Pagamento();
     }
 
-    // Método de alto nível para fazer um pedido
+    // Método para fazer um pedido
     public void fazerPedido() {
         cozinha.prepararComida();
         pagamento.processarPagamento();
