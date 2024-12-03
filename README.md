@@ -23,7 +23,7 @@ Para contribuir com este repositório, por favor, siga as diretrizes descritas n
 ## Estrutura de Diretórios
 
 Cada padrão de projeto é organizado em um diretório separado conforme a estrutura abaixo:
-padroes-de-projeto/ ├── Factory/ │ ├── README.md│ ├── factory-example.java│ └── factory-uml.png
+padroes-de-projeto/ ├── Padrão/ │ ├── README.md│ ├── padrão-example.java│ └── padrão-uml.png
 
 
 ## Como Contribuir
