@@ -17,6 +17,8 @@ O padrão Template Method define o esqueleto de um algoritmo em uma operação, 
 
 ![Template Method UML Diagram](template-method-uml.png)
 
+## Exemplo de código-fonte:
+
 // Classe abstrata que define o método template
 public abstract class Template {
     // Método template final que define o esqueleto do algoritmo
@@ -72,4 +74,3 @@ public class Client {
         template.templateMethod();
     }
 }
-
