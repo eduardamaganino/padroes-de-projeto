@@ -20,9 +20,13 @@ O padrão Template Method define o esqueleto de um algoritmo em uma operação, 
 ## Exemplo de código-fonte:
 
 // Classe abstrata que define o método template
+
 public abstract class Template {
-    // Método template final que define o esqueleto do algoritmo
+
+// Método template final que define o esqueleto do algoritmo
+
     public final void templateMethod() {
+    
         baseOperation();      // Operação base comum a todas as subclasses
         requiredOperation1(); // Operação específica 1, a ser implementada pelas subclasses
         requiredOperation2(); // Operação específica 2, a ser implementada pelas subclasses
