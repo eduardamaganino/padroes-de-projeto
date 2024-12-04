@@ -11,13 +11,13 @@ Este padrão resolve o problema de sistemas complexos que possuem múltiplas int
 - Quando você deseja desacoplar o código cliente do subsistema, proporcionando maior flexibilidade e facilidade de manutenção.
 - Quando diferentes subsistemas possuem interfaces complexas e você quer simplificar a interação do cliente com esses subsistemas.
 
-## Diagrama UML:
-![Diagrama UML do Padrão Facade](./facade-uml.png)
-
 ## Exemplo de Código:
 ![Código de exemplo do Padrão Facade](./facade-example.java)
 
 Este código implementa o padrão Facade para um sistema de pedido de comida, onde a classe SistemaDePedidoFacade oferece uma interface simples para o cliente realizar um pedido. A Facade interage com três subsistemas: Cozinha, Entrega e Pagamento. O método fazerPedido() da classe Facade chama as operações dos subsistemas na ordem correta: primeiro prepara a comida, depois processa o pagamento e, por fim, realiza a entrega. Isso permite que o cliente faça um pedido sem precisar interagir diretamente com os detalhes de cada subsistema, tornando o sistema mais simples de usar e gerenciar.
+
+## Diagrama UML:
+![Diagrama UML do Padrão Facade](./facade-uml.jpg)
 
 ## Vantagens:
 - Redução de Complexidade: A interação com os subsistemas complexos é simplificada, facilitando o uso do sistema por clientes.
