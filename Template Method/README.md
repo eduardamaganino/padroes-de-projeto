@@ -82,3 +82,17 @@ public class Client {
     }
 }
 
+## Vantagens
+
+- Reuso de Código: Promove o reuso de código comum.
+
+- Flexibilidade: Permite que subclasses personalizem partes específicas do algoritmo.
+
+- Clareza e Organização: Clarifica a estrutura do algoritmo.
+
+
+## Desvantagens
+
+- Herdabilidade Rígida: Requer herança, o que pode ser uma limitação em algumas linguagens.
+
+- Inflexibilidade: Mudanças na estrutura do algoritmo podem exigir mudanças na classe base e em todas as subclasses.
