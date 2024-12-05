@@ -41,4 +41,6 @@ Para contribuir com este projeto, siga os seguintes passos:
 
 ## Referências
 
-Adicione aqui quaisquer referências utilizadas como base para as informações sobre os padrões de projeto.
+https://www.devmedia.com.br/padrao-de-projeto-facade
+https://chatgpt.com/
+https://engsoftmoderna.info/cap6.html
