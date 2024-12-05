@@ -32,7 +32,7 @@ Para contribuir com este projeto, siga os seguintes passos:
 
 1. **Crie uma issue:** Cada membro deve criar uma issue para o padrão de projeto que será implementado.
 2. **Escolha uma issue:** Comente na issue que você deseja trabalhar para solicitar a atribuição.
-3. **Criação de branches:** Crie uma branch específica para a sua tarefa, seguindo o padrão `feature/nome-do-padrao`.
+3. **Criação de branches:** Crie uma branch específica para a sua tarefa, seguindo o padrão `nome-do-padrao`.
 4. **Faça commits frequentes:** Realize commits detalhados explicando as mudanças feitas.
 5. **Abra um Pull Request (PR):** Após finalizar sua tarefa, abra um PR da sua branch para a branch principal (`main`).
 6. **Revisão e feedback:** Revise os PRs dos outros membros, sugira melhorias e aprove as mudanças.
